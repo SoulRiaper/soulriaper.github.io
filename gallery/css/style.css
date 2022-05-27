@@ -1,0 +1,66 @@
+.main-cont{
+	box-shadow: 0px 0px 3px grey;
+	background-color:#FFF8DC ;
+}
+.my-txt{
+	transition: all 0.4s;
+}
+.my-img{
+	transition: all 0.4s;
+	padding: 15px 15px;
+}
+.my-a{
+	color: white;
+	position: relative;
+	width: 100%;
+}
+p.in-img{
+	padding-top: 18%;
+	text-align: center;
+	height: 100%;
+	opacity: 0;
+	text-shadow: 1px 1px 3px black;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	transition: all 0.4s;
+}
+
+@media (min-width: 990px){
+	.my-img{
+		opacity: 0.6;
+	}
+	.my-txt:hover{
+		color: #228B22;
+		transform: scale(1.2);
+	}
+	.right:hover{
+		transform: scale(1.1) rotate(2deg);
+		opacity: 1; 
+	}
+	.left:hover{
+		transform: scale(1.1) rotate(-2deg);
+		opacity: 1;
+	}
+	.in-img:hover{
+		opacity: 1;
+	}
+}
+.my-a:hover{
+	color: white;
+}
+.my-a:active{
+	color: white;
+	border: 0px;
+	box-shadow: none;
+	outline: none;
+}
+.my-a:focus{
+	border: 0px;
+	box-shadow: none;
+	outline: none;
+}
+.my-body{
+	background-color: #FFFFF0;
+}
